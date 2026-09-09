@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="8.5in" height="11in" viewBox="0 0 612.0 792.0">
+<defs>
+<style>
+      .font-sans { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; }
+      .font-mono { font-family: 'JetBrainsMono Nerd Font', 'Liberation Mono', 'Noto Sans Mono', monospace; }
+      .doc-title { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 18.0px; font-weight: 800; letter-spacing: 0.6px; }
+      .doc-subtitle { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 7.6px; font-weight: 600; letter-spacing: 0.3px; }
+      .card-title { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 8.8px; font-weight: 700; letter-spacing: 0.4px; }
+      .key-label { font-family: 'JetBrainsMono Nerd Font', 'Liberation Mono', 'Noto Sans Mono', monospace; font-size: 6.6px; font-weight: 700; }
+      .key-sep { font-family: 'JetBrainsMono Nerd Font', 'Liberation Mono', 'Noto Sans Mono', monospace; font-size: 6.2px; font-weight: 600; fill: #475569; }
+      .desc-text { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 7.6px; font-weight: 450; fill: #cbd5e1; }
+      .footer-text { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 6.8px; font-weight: 500; fill: #64748b; }
+      .legend-label { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 6.8px; font-weight: 500; fill: #94a3b8; }
+    </style>
+</defs>
+<rect width="612.0" height="792.0" fill="#070a12"/>
+<text x="18.0" y="28.0" class="doc-title" fill="#ffffff">OMARCHY <tspan fill="#38bdf8">QUATTRO</tspan></text>
+<text x="18.0" y="43.0" class="doc-subtitle" fill="#94a3b8">KEYBINDINGS CHEATSHEET • PAGE 1: WINDOWS &amp; SYSTEM</text>
+<rect x="348.0" y="17.5" width="246.0" height="25" rx="3.5" ry="3.5" fill="#0f172a" stroke="#1c263c" stroke-width="0.8"/>
+<rect x="354.0" y="22.0" width="27.5" height="15.0" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.6"/>
+<text x="367.75" y="32.3" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="384.3" y="32.3" class="legend-label">Win</text>
+<rect x="401.2" y="22.0" width="19.5" height="15.0" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="410.95" y="32.3" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="423.5" y="32.3" class="legend-label">Alt</text>
+<rect x="440.4" y="22.0" width="23.5" height="15.0" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="452.15" y="32.3" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="466.7" y="32.3" class="legend-label">Ctrl</text>
+<rect x="487.4" y="22.0" width="27.5" height="15.0" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="501.15" y="32.3" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="517.6999999999999" y="32.3" class="legend-label">Shift</text>
+<rect x="542.1999999999999" y="22.0" width="23.5" height="15.0" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="553.9499999999999" y="32.3" text-anchor="middle" class="key-label" fill="#f8fafc">XF86</text>
+<text x="568.4999999999999" y="32.3" class="legend-label">Media</text>
+<line x1="18.0" y1="57.0" x2="594.0" y2="57.0" stroke="#1c263c" stroke-width="0.8"/>
+<g transform="translate(18.00, 64.00)">
+<rect width="282.00" height="255.81" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#38bdf8"/>
+<text x="9.5" y="12.0" class="card-title" fill="#38bdf8">WINDOW MANAGEMENT</text>
+<rect x="7.00" y="22.80" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="30.90" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="31.20" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="22.80" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="30.90" text-anchor="middle" class="key-label" fill="#f8fafc">W</text>
+<text x="100.00" y="31.40" class="desc-text">Close active focused window</text>
+<rect x="7.00" y="42.66" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="18.75" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="34.80" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="38.50" y="42.66" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.25" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="62.30" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="66.00" y="42.66" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="75.75" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">DEL</text>
+<text x="100.00" y="51.26" class="desc-text">Close all open windows</text>
+<rect x="7.00" y="62.52" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="70.62" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="70.92" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="62.52" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">T</text>
+<text x="100.00" y="71.12" class="desc-text">Toggle window floating / tiling</text>
+<rect x="7.00" y="82.38" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="90.48" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="90.78" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="82.38" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">F</text>
+<text x="100.00" y="90.98" class="desc-text">Toggle fullscreen mode</text>
+<rect x="7.00" y="102.24" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="110.34" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="102.24" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="102.24" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="80.00" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">F</text>
+<text x="100.00" y="110.84" class="desc-text">Toggle tiled fullscreen mode</text>
+<rect x="7.00" y="122.10" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="130.20" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="122.10" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="66.30" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="70.00" y="122.10" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="76.00" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">F</text>
+<text x="100.00" y="130.70" class="desc-text">Toggle full width (maximized)</text>
+<rect x="7.00" y="141.96" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="150.06" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="150.36" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="141.96" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="150.06" text-anchor="middle" class="key-label" fill="#f8fafc">J</text>
+<text x="100.00" y="150.56" class="desc-text">Toggle window split (H / V)</text>
+<rect x="7.00" y="161.82" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="169.92" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="170.22" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="161.82" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="169.92" text-anchor="middle" class="key-label" fill="#f8fafc">O</text>
+<text x="100.00" y="170.42" class="desc-text">Pop out (float &amp; pin on top)</text>
+<rect x="7.00" y="181.68" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="189.78" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="190.08" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="181.68" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="189.78" text-anchor="middle" class="key-label" fill="#f8fafc">P</text>
+<text x="100.00" y="190.28" class="desc-text">Toggle pseudo window mode</text>
+<rect x="7.00" y="201.54" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="209.64" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="209.94" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="201.54" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="209.64" text-anchor="middle" class="key-label" fill="#f8fafc">L</text>
+<text x="100.00" y="210.14" class="desc-text">Toggle workspace layout mode</text>
+<rect x="7.00" y="221.40" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="229.50" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="229.80" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="221.40" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="229.50" text-anchor="middle" class="key-label" fill="#f8fafc">Home</text>
+<text x="100.00" y="230.00" class="desc-text">Restore saved window width</text>
+<rect x="7.00" y="241.25" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="249.35" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="249.65" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="241.25" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="249.35" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="66.30" y="249.65" text-anchor="middle" class="key-sep">+</text>
+<rect x="70.00" y="241.25" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="81.75" y="249.35" text-anchor="middle" class="key-label" fill="#f8fafc">Home</text>
+<text x="100.00" y="249.85" class="desc-text">Save current window width</text>
+</g>
+<g transform="translate(18.00, 328.31)">
+<rect width="282.00" height="216.09" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#0ea5e9"/>
+<text x="9.5" y="12.0" class="card-title" fill="#0ea5e9">FOCUS &amp; NAVIGATION</text>
+<rect x="7.00" y="22.80" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="30.90" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="31.20" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="22.80" width="39.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="62.05" y="30.90" text-anchor="middle" class="key-label" fill="#f8fafc">← ↓ ↑ →</text>
+<text x="100.00" y="31.40" class="desc-text">Move window focus in direction</text>
+<rect x="7.00" y="42.66" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="50.76" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="42.66" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="42.66" width="39.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="97.55" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">← ↓ ↑ →</text>
+<text x="122.70" y="51.26" class="desc-text">Swap active window position</text>
+<rect x="7.00" y="62.52" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="16.75" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="30.80" y="70.92" text-anchor="middle" class="key-sep">+</text>
+<rect x="34.50" y="62.52" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="44.25" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">TAB</text>
+<text x="100.00" y="71.12" class="desc-text">Cycle focus to next window</text>
+<rect x="7.00" y="82.38" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="20.75" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="38.80" y="90.78" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="82.38" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="66.30" y="90.78" text-anchor="middle" class="key-sep">+</text>
+<rect x="70.00" y="82.38" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="79.75" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">TAB</text>
+<text x="100.00" y="90.98" class="desc-text">Cycle focus to previous window</text>
+<rect x="7.00" y="102.24" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="18.75" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="34.80" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="38.50" y="102.24" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.25" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="62.30" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="66.00" y="102.24" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="75.75" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">TAB</text>
+<text x="100.00" y="110.84" class="desc-text">Move focus to next monitor</text>
+<rect x="7.00" y="122.10" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="20.75" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="38.80" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="122.10" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="122.10" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="83.75" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="97.80" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="101.50" y="122.10" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="111.25" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">TAB</text>
+<text x="126.60" y="130.70" class="desc-text">Move focus to previous monitor</text>
+<rect x="7.00" y="141.96" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="150.06" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="150.36" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="141.96" width="45.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="65.05" y="150.06" text-anchor="middle" class="key-label" fill="#f8fafc">Left Drag</text>
+<text x="100.00" y="150.56" class="desc-text">Move floating or tiled window</text>
+<rect x="7.00" y="161.82" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="169.92" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="170.22" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="161.82" width="49.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="67.25" y="169.92" text-anchor="middle" class="key-label" fill="#f8fafc">Right Drag</text>
+<text x="100.00" y="170.42" class="desc-text">Resize window interactively</text>
+<rect x="7.00" y="181.68" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="189.78" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="190.08" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="181.68" width="43.90" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="64.45" y="189.78" text-anchor="middle" class="key-label" fill="#f8fafc">Scroll ⇅</text>
+<text x="100.00" y="190.28" class="desc-text">Cycle workspace forward / back</text>
+<rect x="7.00" y="201.54" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="16.75" y="209.64" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="30.80" y="209.94" text-anchor="middle" class="key-sep">+</text>
+<rect x="34.50" y="201.54" width="49.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="59.25" y="209.64" text-anchor="middle" class="key-label" fill="#f8fafc">TAB (Hold)</text>
+<text x="100.00" y="210.14" class="desc-text">Reveal active window on top</text>
+</g>
+<g transform="translate(18.00, 552.91)">
+<rect width="282.00" height="216.09" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#60a5fa"/>
+<text x="9.5" y="12.0" class="card-title" fill="#60a5fa">WINDOW RESIZING &amp; GAPS</text>
+<rect x="7.00" y="22.80" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="30.90" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="31.20" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="22.80" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="30.90" text-anchor="middle" class="key-label" fill="#f8fafc">-</text>
+<text x="58.80" y="31.20" text-anchor="middle" class="key-sep">/</text>
+<rect x="62.50" y="22.80" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="68.50" y="30.90" text-anchor="middle" class="key-label" fill="#f8fafc">=</text>
+<text x="100.00" y="31.40" class="desc-text">Expand / shrink width (100px)</text>
+<rect x="7.00" y="42.66" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="50.76" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="42.66" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="66.30" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="70.00" y="42.66" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="76.00" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">-</text>
+<text x="86.30" y="51.06" text-anchor="middle" class="key-sep">/</text>
+<rect x="90.00" y="42.66" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="96.00" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">=</text>
+<text x="107.60" y="51.26" class="desc-text">Fine adjust width (25px)</text>
+<rect x="7.00" y="62.52" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="70.62" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="70.92" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="62.52" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="70.92" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="62.52" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="80.00" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">-</text>
+<text x="90.30" y="70.92" text-anchor="middle" class="key-sep">/</text>
+<rect x="94.00" y="62.52" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="100.00" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">=</text>
+<text x="111.60" y="71.12" class="desc-text">Coarse adjust width (300px)</text>
+<rect x="7.00" y="82.38" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="90.48" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="90.78" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="82.38" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="90.78" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="82.38" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="84.00" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">-</text>
+<text x="94.30" y="90.78" text-anchor="middle" class="key-sep">/</text>
+<rect x="98.00" y="82.38" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="104.00" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">=</text>
+<text x="115.60" y="90.98" class="desc-text">Shrink / expand height (100px)</text>
+<rect x="7.00" y="102.24" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="110.34" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="102.24" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="102.24" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="87.75" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="101.80" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="105.50" y="102.24" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="111.50" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">-</text>
+<text x="121.80" y="110.64" text-anchor="middle" class="key-sep">/</text>
+<rect x="125.50" y="102.24" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="131.50" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">=</text>
+<text x="143.10" y="110.84" class="desc-text">Fine adjust height (25px)</text>
+<rect x="7.00" y="122.10" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="130.20" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="122.10" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="122.10" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="89.75" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="105.80" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="109.50" y="122.10" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="115.50" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">-</text>
+<text x="125.80" y="130.50" text-anchor="middle" class="key-sep">/</text>
+<rect x="129.50" y="122.10" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="135.50" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">=</text>
+<text x="147.10" y="130.70" class="desc-text">Coarse adjust height (300px)</text>
+<rect x="7.00" y="141.96" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="150.06" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="150.36" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="141.96" width="45.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="65.05" y="150.06" text-anchor="middle" class="key-label" fill="#f8fafc">BACKSPACE</text>
+<text x="100.00" y="150.56" class="desc-text">Toggle window transparency</text>
+<rect x="7.00" y="161.82" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="169.92" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="170.22" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="161.82" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="169.92" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="170.22" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="161.82" width="45.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="100.55" y="169.92" text-anchor="middle" class="key-label" fill="#f8fafc">BACKSPACE</text>
+<text x="128.70" y="170.42" class="desc-text">Toggle workspace window gaps</text>
+<rect x="7.00" y="181.68" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="189.78" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="190.08" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="181.68" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="189.78" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="190.08" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="181.68" width="45.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="96.55" y="189.78" text-anchor="middle" class="key-label" fill="#f8fafc">BACKSPACE</text>
+<text x="124.70" y="190.28" class="desc-text">Toggle 1:1 square aspect ratio</text>
+<rect x="7.00" y="201.54" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="209.64" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="209.94" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="201.54" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="209.64" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="209.94" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="201.54" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="80.00" y="209.64" text-anchor="middle" class="key-label" fill="#f8fafc">Z</text>
+<text x="90.30" y="209.94" text-anchor="middle" class="key-sep">/</text>
+<rect x="94.00" y="201.54" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="103.75" y="209.64" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="117.80" y="209.94" text-anchor="middle" class="key-sep">+</text>
+<rect x="121.50" y="201.54" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="127.50" y="209.64" text-anchor="middle" class="key-label" fill="#f8fafc">Z</text>
+<text x="139.10" y="210.14" class="desc-text">Zoom in screen / Reset zoom</text>
+</g>
+<g transform="translate(312.00, 64.00)">
+<rect width="282.00" height="255.81" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#c084fc"/>
+<text x="9.5" y="12.0" class="card-title" fill="#c084fc">WORKSPACES &amp; MONITORS</text>
+<rect x="7.00" y="22.80" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="30.90" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="31.20" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="22.80" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="30.90" text-anchor="middle" class="key-label" fill="#f8fafc">1–10</text>
+<text x="100.00" y="31.40" class="desc-text">Switch directly to workspace 1–10</text>
+<rect x="7.00" y="42.66" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="50.76" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="42.66" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="42.66" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="89.75" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">1–10</text>
+<text x="107.10" y="51.26" class="desc-text">Move focused window to ws 1–10</text>
+<rect x="7.00" y="62.52" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="70.62" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="70.92" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="62.52" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="70.92" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="62.52" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="87.75" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="101.80" y="70.92" text-anchor="middle" class="key-sep">+</text>
+<rect x="105.50" y="62.52" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="117.25" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">1–10</text>
+<text x="134.60" y="71.12" class="desc-text">Move window silently to ws 1–10</text>
+<rect x="7.00" y="82.38" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="90.48" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="90.78" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="82.38" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">TAB</text>
+<text x="100.00" y="90.98" class="desc-text">Switch to next workspace</text>
+<rect x="7.00" y="102.24" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="110.34" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="102.24" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="102.24" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="87.75" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">TAB</text>
+<text x="103.10" y="110.84" class="desc-text">Switch to previous workspace</text>
+<rect x="7.00" y="122.10" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="130.20" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="122.10" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="122.10" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="83.75" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">TAB</text>
+<text x="100.00" y="130.70" class="desc-text">Switch to former active workspace</text>
+<rect x="7.00" y="141.96" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="150.06" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="150.36" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="141.96" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="150.06" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="150.36" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="141.96" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="87.75" y="150.06" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="101.80" y="150.36" text-anchor="middle" class="key-sep">+</text>
+<rect x="105.50" y="141.96" width="24.70" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="117.85" y="150.06" text-anchor="middle" class="key-label" fill="#f8fafc">←↓↑→</text>
+<text x="135.80" y="150.56" class="desc-text">Move ws to target monitor</text>
+<rect x="7.00" y="161.82" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="169.92" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="170.22" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="161.82" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="169.92" text-anchor="middle" class="key-label" fill="#f8fafc">S</text>
+<text x="58.80" y="170.22" text-anchor="middle" class="key-sep">/</text>
+<rect x="62.50" y="161.82" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="72.25" y="169.92" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="86.30" y="170.22" text-anchor="middle" class="key-sep">+</text>
+<rect x="90.00" y="161.82" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="96.00" y="169.92" text-anchor="middle" class="key-label" fill="#f8fafc">S</text>
+<text x="107.60" y="170.42" class="desc-text">Toggle / Move to scratchpad</text>
+<rect x="7.00" y="181.68" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="189.78" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="190.08" text-anchor="middle" class="key-sep">+</text>
+<text x="45.00" y="190.08" text-anchor="middle" class="key-sep">/</text>
+<text x="100.00" y="190.28" class="desc-text">Increase monitor display scaling</text>
+<rect x="7.00" y="201.54" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="209.64" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="209.94" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="201.54" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="209.64" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="66.30" y="209.94" text-anchor="middle" class="key-sep">+</text>
+<text x="72.50" y="209.94" text-anchor="middle" class="key-sep">/</text>
+<text x="100.00" y="210.14" class="desc-text">Decrease monitor display scaling</text>
+<rect x="7.00" y="221.40" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="229.50" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="229.80" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="221.40" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="229.50" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="229.80" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="221.40" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="83.75" y="229.50" text-anchor="middle" class="key-label" fill="#f8fafc">DEL</text>
+<text x="100.00" y="230.00" class="desc-text">Toggle laptop display on / off</text>
+<rect x="7.00" y="241.25" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="249.35" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="249.65" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="241.25" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="249.35" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="249.65" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="241.25" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="83.75" y="249.35" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="97.80" y="249.65" text-anchor="middle" class="key-sep">+</text>
+<rect x="101.50" y="241.25" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="111.25" y="249.35" text-anchor="middle" class="key-label" fill="#f8fafc">DEL</text>
+<text x="126.60" y="249.85" class="desc-text">Toggle laptop display mirroring</text>
+</g>
+<g transform="translate(312.00, 328.31)">
+<rect width="282.00" height="176.38" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#a78bfa"/>
+<text x="9.5" y="12.0" class="card-title" fill="#a78bfa">WINDOW GROUPING (TABS)</text>
+<rect x="7.00" y="22.80" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="30.90" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="31.20" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="22.80" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="30.90" text-anchor="middle" class="key-label" fill="#f8fafc">G</text>
+<text x="100.00" y="31.40" class="desc-text">Toggle window grouping into tabs</text>
+<rect x="7.00" y="42.66" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="50.76" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="42.66" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="66.30" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="70.00" y="42.66" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="76.00" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">G</text>
+<text x="100.00" y="51.26" class="desc-text">Move active window out of group</text>
+<rect x="7.00" y="62.52" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="70.62" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="70.92" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="62.52" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="66.30" y="70.92" text-anchor="middle" class="key-sep">+</text>
+<rect x="70.00" y="62.52" width="39.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="89.55" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">← ↓ ↑ →</text>
+<text x="114.70" y="71.12" class="desc-text">Move window into adjacent group</text>
+<rect x="7.00" y="82.38" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="90.48" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="90.78" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="82.38" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="66.30" y="90.78" text-anchor="middle" class="key-sep">+</text>
+<rect x="70.00" y="82.38" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="79.75" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">TAB</text>
+<text x="100.00" y="90.98" class="desc-text">Next tab window in current group</text>
+<rect x="7.00" y="102.24" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="110.34" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="102.24" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="102.24" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="87.75" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="101.80" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="105.50" y="102.24" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="115.25" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">TAB</text>
+<text x="130.60" y="110.84" class="desc-text">Previous tab in group</text>
+<rect x="7.00" y="122.10" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="130.20" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="122.10" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="122.10" width="12.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="80.25" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">←</text>
+<text x="90.80" y="130.50" text-anchor="middle" class="key-sep">/</text>
+<rect x="94.50" y="122.10" width="12.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="100.75" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">→</text>
+<text x="112.60" y="130.70" class="desc-text">Focus grouped window left / right</text>
+<rect x="7.00" y="141.96" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="150.06" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="150.36" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="141.96" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="150.06" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="66.30" y="150.36" text-anchor="middle" class="key-sep">+</text>
+<rect x="70.00" y="141.96" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="79.75" y="150.06" text-anchor="middle" class="key-label" fill="#f8fafc">1–5</text>
+<text x="100.00" y="150.56" class="desc-text">Switch directly to group tab 1–5</text>
+<rect x="7.00" y="161.82" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="169.92" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="170.22" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="161.82" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="169.92" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="66.30" y="170.22" text-anchor="middle" class="key-sep">+</text>
+<rect x="70.00" y="161.82" width="43.90" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="91.95" y="169.92" text-anchor="middle" class="key-label" fill="#f8fafc">Scroll ⇅</text>
+<text x="119.50" y="170.42" class="desc-text">Cycle through window tabs in group</text>
+</g>
+<g transform="translate(312.00, 513.19)">
+<rect width="282.00" height="255.81" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#fbbf24"/>
+<text x="9.5" y="12.0" class="card-title" fill="#fbbf24">OMARCHY SYSTEM &amp; MENUS</text>
+<rect x="7.00" y="22.80" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="30.90" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="31.20" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="22.80" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="30.90" text-anchor="middle" class="key-label" fill="#f8fafc">SPACE</text>
+<text x="100.00" y="31.40" class="desc-text">Open Omarchy root launcher menu</text>
+<rect x="7.00" y="42.66" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="50.76" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="42.66" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="66.30" y="51.06" text-anchor="middle" class="key-sep">+</text>
+<rect x="70.00" y="42.66" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="83.75" y="50.76" text-anchor="middle" class="key-label" fill="#f8fafc">SPACE</text>
+<text x="103.10" y="51.26" class="desc-text">Open applications launcher menu</text>
+<rect x="7.00" y="62.52" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="70.62" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="70.92" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="62.52" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.25" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">ESC</text>
+<text x="66.30" y="70.92" text-anchor="middle" class="key-sep">/</text>
+<rect x="70.00" y="62.52" width="45.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="92.55" y="70.62" text-anchor="middle" class="key-label" fill="#f8fafc">XF86Power</text>
+<text x="120.70" y="71.12" class="desc-text">Open system power &amp; session menu</text>
+<rect x="7.00" y="82.38" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="90.48" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="90.78" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="82.38" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="90.78" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="82.38" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="91.75" y="90.48" text-anchor="middle" class="key-label" fill="#f8fafc">SPACE</text>
+<text x="111.10" y="90.98" class="desc-text">Toggle top system status bar</text>
+<rect x="7.00" y="102.24" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="110.34" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="102.24" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="110.64" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="102.24" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="87.75" y="110.34" text-anchor="middle" class="key-label" fill="#f8fafc">SPACE</text>
+<text x="107.10" y="110.84" class="desc-text">Open wallpaper background switcher</text>
+<rect x="7.00" y="122.10" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="130.20" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="122.10" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="74.30" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="78.00" y="122.10" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="89.75" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="105.80" y="130.50" text-anchor="middle" class="key-sep">+</text>
+<rect x="109.50" y="122.10" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="123.25" y="130.20" text-anchor="middle" class="key-label" fill="#f8fafc">SPACE</text>
+<text x="142.60" y="130.70" class="desc-text">Open theme switcher menu</text>
+<rect x="7.00" y="141.96" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="150.06" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="150.36" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="141.96" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="150.06" text-anchor="middle" class="key-label" fill="#f8fafc">K</text>
+<text x="100.00" y="150.56" class="desc-text">Open live keybindings menu</text>
+<rect x="7.00" y="161.82" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="169.92" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="170.22" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="161.82" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="169.92" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="170.22" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="161.82" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="80.00" y="169.92" text-anchor="middle" class="key-label" fill="#f8fafc">L</text>
+<text x="100.00" y="170.42" class="desc-text">Lock workstation screen immediately</text>
+<rect x="7.00" y="181.68" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="189.78" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="190.08" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="181.68" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="189.78" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="190.08" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="181.68" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="80.00" y="189.78" text-anchor="middle" class="key-label" fill="#f8fafc">O</text>
+<text x="100.00" y="190.28" class="desc-text">Open quick toggles settings menu</text>
+<rect x="7.00" y="201.54" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="209.64" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="209.94" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="201.54" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="209.64" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="209.94" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="201.54" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="80.00" y="209.64" text-anchor="middle" class="key-label" fill="#f8fafc">H</text>
+<text x="100.00" y="210.14" class="desc-text">Open hardware configuration menu</text>
+<rect x="7.00" y="221.40" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="229.50" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="229.80" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="221.40" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="229.50" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="229.80" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="221.40" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="80.00" y="229.50" text-anchor="middle" class="key-label" fill="#f8fafc">S</text>
+<text x="100.00" y="230.00" class="desc-text">Open Omarchy share &amp; export menu</text>
+<rect x="7.00" y="241.25" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#1e293b" stroke="#38bdf8" stroke-width="0.75"/>
+<text x="20.75" y="249.35" text-anchor="middle" class="key-label" fill="#38bdf8">SUPER</text>
+<text x="38.80" y="249.65" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="241.25" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.25" y="249.35" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="70.30" y="249.65" text-anchor="middle" class="key-sep">+</text>
+<rect x="74.00" y="241.25" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="83.75" y="249.35" text-anchor="middle" class="key-label" fill="#f8fafc">1–9</text>
+<text x="100.00" y="249.85" class="desc-text">Toggle top bar quick panels 1–9</text>
+</g>
+<line x1="18.0" y1="769.0" x2="594.0" y2="769.0" stroke="#1c263c" stroke-width="0.8"/>
+<text x="18.0" y="780.0" class="footer-text">OMARCHY QUATTRO • HYPRLAND 0.54+ • PRESS <tspan fill="#38bdf8" font-weight="700">SUPER + K</tspan> FOR LIVE MENU</text>
+<text x="594.0" y="780.0" text-anchor="end" class="footer-text">PAGE 1 OF 2 • LETTER PORTRAIT</text>
+</svg>
