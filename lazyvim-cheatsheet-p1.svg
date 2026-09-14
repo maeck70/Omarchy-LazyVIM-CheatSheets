@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="8.5in" height="11in" viewBox="0 0 612.0 792.0">
+<defs>
+<style>
+      .font-sans { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; }
+      .font-mono { font-family: 'JetBrainsMono Nerd Font', 'Liberation Mono', 'Noto Sans Mono', monospace; }
+      .doc-title { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 18.0px; font-weight: 800; letter-spacing: 0.6px; }
+      .doc-subtitle { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 7.6px; font-weight: 600; letter-spacing: 0.3px; }
+      .card-title { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 8.8px; font-weight: 700; letter-spacing: 0.4px; }
+      .key-label { font-family: 'JetBrainsMono Nerd Font', 'Liberation Mono', 'Noto Sans Mono', monospace; font-size: 6.6px; font-weight: 700; }
+      .key-sep { font-family: 'JetBrainsMono Nerd Font', 'Liberation Mono', 'Noto Sans Mono', monospace; font-size: 6.2px; font-weight: 600; fill: #475569; }
+      .desc-text { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 7.6px; font-weight: 450; fill: #cbd5e1; }
+      .footer-text { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 6.8px; font-weight: 500; fill: #64748b; }
+      .legend-label { font-family: 'Liberation Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 6.8px; font-weight: 500; fill: #94a3b8; }
+    </style>
+</defs>
+<rect width="612.0" height="792.0" fill="#070a12"/>
+<text x="18.0" y="28.0" class="doc-title" fill="#ffffff">LAZY<tspan fill="#38bdf8">VIM</tspan></text>
+<text x="18.0" y="43.0" class="doc-subtitle" fill="#94a3b8">KEYBINDINGS CHEATSHEET • PAGE 1: MOTIONS, EDITING &amp; ESSENTIALS</text>
+<rect x="344.0" y="17.5" width="250.0" height="25" rx="3.5" ry="3.5" fill="#0f172a" stroke="#1c263c" stroke-width="0.8"/>
+<rect x="350.0" y="22.0" width="42.300000000000004" height="15.0" rx="2.2" ry="2.2" fill="#083344" stroke="#06b6d4" stroke-width="0.6"/>
+<text x="371.15" y="32.3" text-anchor="middle" class="key-label" fill="#38bdf8">&lt;leader&gt;</text>
+<text x="395.1" y="32.3" class="legend-label">Space</text>
+<rect x="419.6" y="22.0" width="23.5" height="15.0" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="431.35" y="32.3" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="445.90000000000003" y="32.3" class="legend-label">Ctrl</text>
+<rect x="466.6" y="22.0" width="19.5" height="15.0" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="476.35" y="32.3" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="488.90000000000003" y="32.3" class="legend-label">Alt</text>
+<rect x="505.8" y="22.0" width="27.5" height="15.0" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="519.55" y="32.3" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="536.1" y="32.3" class="legend-label">Shift</text>
+<rect x="560.6" y="22.0" width="19.5" height="15.0" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="570.35" y="32.3" text-anchor="middle" class="key-label" fill="#f8fafc">ESC</text>
+<text x="582.9" y="32.3" class="legend-label">Normal</text>
+<line x1="18.0" y1="57.0" x2="594.0" y2="57.0" stroke="#1c263c" stroke-width="0.8"/>
+<g transform="translate(18.00, 64.00)">
+<rect width="282.00" height="235.39" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#34d399"/>
+<text x="9.5" y="12.0" class="card-title" fill="#34d399">MOTIONS &amp; CURSOR NAVIGATION</text>
+<rect x="7.00" y="21.61" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="29.71" text-anchor="middle" class="key-label" fill="#f8fafc">h</text>
+<text x="23.30" y="30.01" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="21.61" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="29.71" text-anchor="middle" class="key-label" fill="#f8fafc">j</text>
+<text x="43.30" y="30.01" text-anchor="middle" class="key-sep">/</text>
+<rect x="47.00" y="21.61" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="53.00" y="29.71" text-anchor="middle" class="key-label" fill="#f8fafc">k</text>
+<text x="63.30" y="30.01" text-anchor="middle" class="key-sep">/</text>
+<rect x="67.00" y="21.61" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="73.00" y="29.71" text-anchor="middle" class="key-label" fill="#f8fafc">l</text>
+<text x="96.00" y="30.21" class="desc-text">Move cursor left, down, up, right</text>
+<rect x="7.00" y="39.77" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="14.75" y="47.87" text-anchor="middle" class="key-label" fill="#f8fafc">gj</text>
+<text x="26.80" y="48.17" text-anchor="middle" class="key-sep">/</text>
+<rect x="30.50" y="39.77" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="38.25" y="47.87" text-anchor="middle" class="key-label" fill="#f8fafc">gk</text>
+<text x="96.00" y="48.37" class="desc-text">Move down / up by visual screen line</text>
+<rect x="7.00" y="57.92" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="66.02" text-anchor="middle" class="key-label" fill="#f8fafc">w</text>
+<text x="23.30" y="66.32" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="57.92" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="66.02" text-anchor="middle" class="key-label" fill="#f8fafc">b</text>
+<text x="96.00" y="66.52" class="desc-text">Jump to start of next / previous word</text>
+<rect x="7.00" y="76.08" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="84.18" text-anchor="middle" class="key-label" fill="#f8fafc">e</text>
+<text x="23.30" y="84.48" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="76.08" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="34.75" y="84.18" text-anchor="middle" class="key-label" fill="#f8fafc">ge</text>
+<text x="96.00" y="84.68" class="desc-text">Jump to end of current / previous word</text>
+<rect x="7.00" y="94.24" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="102.34" text-anchor="middle" class="key-label" fill="#f8fafc">0</text>
+<text x="23.30" y="102.64" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="94.24" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="102.34" text-anchor="middle" class="key-label" fill="#f8fafc">^</text>
+<text x="43.30" y="102.64" text-anchor="middle" class="key-sep">/</text>
+<rect x="47.00" y="94.24" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="53.00" y="102.34" text-anchor="middle" class="key-label" fill="#f8fafc">$</text>
+<text x="96.00" y="102.84" class="desc-text">Start of line / First non-blank / End</text>
+<rect x="7.00" y="112.40" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="14.75" y="120.50" text-anchor="middle" class="key-label" fill="#f8fafc">gg</text>
+<text x="26.80" y="120.80" text-anchor="middle" class="key-sep">/</text>
+<rect x="30.50" y="112.40" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="36.50" y="120.50" text-anchor="middle" class="key-label" fill="#f8fafc">G</text>
+<text x="96.00" y="121.00" class="desc-text">Jump to first / last line of file</text>
+<rect x="7.00" y="130.55" width="42.30" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="28.15" y="138.65" text-anchor="middle" class="key-label" fill="#f8fafc">{count}G</text>
+<text x="53.60" y="138.95" text-anchor="middle" class="key-sep">/</text>
+<rect x="57.30" y="130.55" width="25.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="69.85" y="138.65" text-anchor="middle" class="key-label" fill="#f8fafc">:{n}</text>
+<text x="96.00" y="139.15" class="desc-text">Jump directly to line number {n}</text>
+<rect x="7.00" y="148.71" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="156.81" text-anchor="middle" class="key-label" fill="#f8fafc">H</text>
+<text x="23.30" y="157.11" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="148.71" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="156.81" text-anchor="middle" class="key-label" fill="#f8fafc">M</text>
+<text x="43.30" y="157.11" text-anchor="middle" class="key-sep">/</text>
+<rect x="47.00" y="148.71" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="53.00" y="156.81" text-anchor="middle" class="key-label" fill="#f8fafc">L</text>
+<text x="96.00" y="157.31" class="desc-text">Move cursor to screen High / Middle / Low</text>
+<rect x="7.00" y="166.87" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="14.75" y="174.97" text-anchor="middle" class="key-label" fill="#f8fafc">zt</text>
+<text x="26.80" y="175.27" text-anchor="middle" class="key-sep">/</text>
+<rect x="30.50" y="166.87" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="38.25" y="174.97" text-anchor="middle" class="key-label" fill="#f8fafc">zz</text>
+<text x="50.30" y="175.27" text-anchor="middle" class="key-sep">/</text>
+<rect x="54.00" y="166.87" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="61.75" y="174.97" text-anchor="middle" class="key-label" fill="#f8fafc">zb</text>
+<text x="96.00" y="175.47" class="desc-text">Scroll viewport: current line to top/mid/bot</text>
+<rect x="7.00" y="185.02" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="18.75" y="193.12" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="34.80" y="193.42" text-anchor="middle" class="key-sep">+</text>
+<rect x="38.50" y="185.02" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="44.50" y="193.12" text-anchor="middle" class="key-label" fill="#f8fafc">O</text>
+<text x="54.80" y="193.42" text-anchor="middle" class="key-sep">/</text>
+<rect x="58.50" y="185.02" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="64.50" y="193.12" text-anchor="middle" class="key-label" fill="#f8fafc">I</text>
+<text x="96.00" y="193.62" class="desc-text">Jump backward / forward in jump list</text>
+<rect x="7.00" y="203.18" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="211.28" text-anchor="middle" class="key-label" fill="#f8fafc">%</text>
+<text x="96.00" y="211.78" class="desc-text">Jump to matching paren, bracket, or block</text>
+<rect x="7.00" y="221.34" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="229.44" text-anchor="middle" class="key-label" fill="#f8fafc">s</text>
+<text x="23.30" y="229.74" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="221.34" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="229.44" text-anchor="middle" class="key-label" fill="#f8fafc">S</text>
+<text x="96.00" y="229.94" class="desc-text">Flash: jump anywhere on screen / Treesitter</text>
+</g>
+<g transform="translate(18.00, 307.89)">
+<rect width="282.00" height="235.39" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#38bdf8"/>
+<text x="9.5" y="12.0" class="card-title" fill="#38bdf8">EDITING, OPERATORS &amp; LINES</text>
+<rect x="7.00" y="21.61" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="29.71" text-anchor="middle" class="key-label" fill="#f8fafc">i</text>
+<text x="23.30" y="30.01" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="21.61" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="29.71" text-anchor="middle" class="key-label" fill="#f8fafc">I</text>
+<text x="96.00" y="30.21" class="desc-text">Insert before cursor / at line start</text>
+<rect x="7.00" y="39.77" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="47.87" text-anchor="middle" class="key-label" fill="#f8fafc">a</text>
+<text x="23.30" y="48.17" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="39.77" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="47.87" text-anchor="middle" class="key-label" fill="#f8fafc">A</text>
+<text x="96.00" y="48.37" class="desc-text">Append after cursor / at end of line</text>
+<rect x="7.00" y="57.92" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="66.02" text-anchor="middle" class="key-label" fill="#f8fafc">o</text>
+<text x="23.30" y="66.32" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="57.92" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="66.02" text-anchor="middle" class="key-label" fill="#f8fafc">O</text>
+<text x="96.00" y="66.52" class="desc-text">Open new line below / above in insert mode</text>
+<rect x="7.00" y="76.08" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="84.18" text-anchor="middle" class="key-label" fill="#f8fafc">c</text>
+<text x="23.30" y="84.48" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="76.08" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="84.18" text-anchor="middle" class="key-label" fill="#f8fafc">d</text>
+<text x="43.30" y="84.48" text-anchor="middle" class="key-sep">/</text>
+<rect x="47.00" y="76.08" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="53.00" y="84.18" text-anchor="middle" class="key-label" fill="#f8fafc">y</text>
+<text x="96.00" y="84.68" class="desc-text">Change (cut+insert), Delete, Yank (copy)</text>
+<rect x="7.00" y="94.24" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="14.75" y="102.34" text-anchor="middle" class="key-label" fill="#f8fafc">cc</text>
+<text x="26.80" y="102.64" text-anchor="middle" class="key-sep">/</text>
+<rect x="30.50" y="94.24" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="38.25" y="102.34" text-anchor="middle" class="key-label" fill="#f8fafc">dd</text>
+<text x="50.30" y="102.64" text-anchor="middle" class="key-sep">/</text>
+<rect x="54.00" y="94.24" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="61.75" y="102.34" text-anchor="middle" class="key-label" fill="#f8fafc">yy</text>
+<text x="96.00" y="102.84" class="desc-text">Change, delete, or yank current line</text>
+<rect x="7.00" y="112.40" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="120.50" text-anchor="middle" class="key-label" fill="#f8fafc">x</text>
+<text x="23.30" y="120.80" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="112.40" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="120.50" text-anchor="middle" class="key-label" fill="#f8fafc">s</text>
+<text x="43.30" y="120.80" text-anchor="middle" class="key-sep">/</text>
+<rect x="47.00" y="112.40" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="53.00" y="120.50" text-anchor="middle" class="key-label" fill="#f8fafc">S</text>
+<text x="96.00" y="121.00" class="desc-text">Delete char / Substitute char / Substitute line</text>
+<rect x="7.00" y="130.55" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="16.75" y="138.65" text-anchor="middle" class="key-label" fill="#f8fafc">ALT</text>
+<text x="30.80" y="138.95" text-anchor="middle" class="key-sep">+</text>
+<rect x="34.50" y="130.55" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="40.50" y="138.65" text-anchor="middle" class="key-label" fill="#f8fafc">j</text>
+<text x="50.80" y="138.95" text-anchor="middle" class="key-sep">/</text>
+<rect x="54.50" y="130.55" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="60.50" y="138.65" text-anchor="middle" class="key-label" fill="#f8fafc">k</text>
+<text x="96.00" y="139.15" class="desc-text">Move active line or block down / up</text>
+<rect x="7.00" y="148.71" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="156.81" text-anchor="middle" class="key-label" fill="#f8fafc">p</text>
+<text x="23.30" y="157.11" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="148.71" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="156.81" text-anchor="middle" class="key-label" fill="#f8fafc">P</text>
+<text x="96.00" y="157.31" class="desc-text">Put (paste) clipboard text after / before</text>
+<rect x="7.00" y="166.87" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="174.97" text-anchor="middle" class="key-label" fill="#f8fafc">u</text>
+<text x="23.30" y="175.27" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="166.87" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="38.75" y="174.97" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="54.80" y="175.27" text-anchor="middle" class="key-sep">+</text>
+<rect x="58.50" y="166.87" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="64.50" y="174.97" text-anchor="middle" class="key-label" fill="#f8fafc">R</text>
+<text x="96.00" y="175.47" class="desc-text">Undo last modification / Redo change</text>
+<rect x="7.00" y="185.02" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="193.12" text-anchor="middle" class="key-label" fill="#f8fafc">.</text>
+<text x="96.00" y="193.62" class="desc-text">Repeat last text-editing modification</text>
+<rect x="7.00" y="203.18" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="15.55" y="211.28" text-anchor="middle" class="key-label" fill="#f8fafc">&gt;&gt;</text>
+<text x="28.40" y="211.58" text-anchor="middle" class="key-sep">/</text>
+<rect x="32.10" y="203.18" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="40.65" y="211.28" text-anchor="middle" class="key-label" fill="#f8fafc">&lt;&lt;</text>
+<text x="96.00" y="211.78" class="desc-text">Indent / unindent line right / left</text>
+<rect x="7.00" y="221.34" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="229.44" text-anchor="middle" class="key-label" fill="#f8fafc">J</text>
+<text x="23.30" y="229.74" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="221.34" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="34.75" y="229.44" text-anchor="middle" class="key-label" fill="#f8fafc">gJ</text>
+<text x="96.00" y="229.94" class="desc-text">Join line below with space / without space</text>
+</g>
+<g transform="translate(18.00, 551.77)">
+<rect width="282.00" height="217.23" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#fbbf24"/>
+<text x="9.5" y="12.0" class="card-title" fill="#fbbf24">TEXT OBJECTS (OPERATOR + OBJECT)</text>
+<rect x="7.00" y="21.61" width="40.70" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="27.35" y="29.71" text-anchor="middle" class="key-label" fill="#f8fafc">Operator</text>
+<text x="52.00" y="30.01" text-anchor="middle" class="key-sep">+</text>
+<rect x="55.70" y="21.61" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="61.70" y="29.71" text-anchor="middle" class="key-label" fill="#f8fafc">i</text>
+<text x="72.00" y="30.01" text-anchor="middle" class="key-sep">/</text>
+<rect x="75.70" y="21.61" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="81.70" y="29.71" text-anchor="middle" class="key-label" fill="#f8fafc">a</text>
+<text x="96.00" y="30.21" class="desc-text">Operator + Inner (content) / Around (border)</text>
+<rect x="7.00" y="39.77" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="14.75" y="47.87" text-anchor="middle" class="key-label" fill="#f8fafc">iw</text>
+<text x="26.80" y="48.17" text-anchor="middle" class="key-sep">/</text>
+<rect x="30.50" y="39.77" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="38.25" y="47.87" text-anchor="middle" class="key-label" fill="#f8fafc">aw</text>
+<text x="96.00" y="48.37" class="desc-text">Inner word / A word (with trailing space)</text>
+<rect x="7.00" y="57.92" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="15.55" y="66.02" text-anchor="middle" class="key-label" fill="#f8fafc">i&quot;</text>
+<text x="28.40" y="66.32" text-anchor="middle" class="key-sep">/</text>
+<rect x="32.10" y="57.92" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="40.65" y="66.02" text-anchor="middle" class="key-label" fill="#f8fafc">a&quot;</text>
+<text x="96.00" y="66.52" class="desc-text">Inner / around double quotes (or ' or `)</text>
+<rect x="7.00" y="76.08" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="15.55" y="84.18" text-anchor="middle" class="key-label" fill="#f8fafc">i(</text>
+<text x="28.40" y="84.48" text-anchor="middle" class="key-sep">/</text>
+<rect x="32.10" y="76.08" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="40.65" y="84.18" text-anchor="middle" class="key-label" fill="#f8fafc">a(</text>
+<text x="96.00" y="84.68" class="desc-text">Inner / around parentheses () (or ib / ab)</text>
+<rect x="7.00" y="94.24" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="15.55" y="102.34" text-anchor="middle" class="key-label" fill="#f8fafc">i{</text>
+<text x="28.40" y="102.64" text-anchor="middle" class="key-sep">/</text>
+<rect x="32.10" y="94.24" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="40.65" y="102.34" text-anchor="middle" class="key-label" fill="#f8fafc">a{</text>
+<text x="96.00" y="102.84" class="desc-text">Inner / around curly braces {} (or iB / aB)</text>
+<rect x="7.00" y="112.40" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="15.55" y="120.50" text-anchor="middle" class="key-label" fill="#f8fafc">i[</text>
+<text x="28.40" y="120.80" text-anchor="middle" class="key-sep">/</text>
+<rect x="32.10" y="112.40" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="40.65" y="120.50" text-anchor="middle" class="key-label" fill="#f8fafc">a[</text>
+<text x="96.00" y="121.00" class="desc-text">Inner / around square brackets []</text>
+<rect x="7.00" y="130.55" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="14.75" y="138.65" text-anchor="middle" class="key-label" fill="#f8fafc">it</text>
+<text x="26.80" y="138.95" text-anchor="middle" class="key-sep">/</text>
+<rect x="30.50" y="130.55" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="38.25" y="138.65" text-anchor="middle" class="key-label" fill="#f8fafc">at</text>
+<text x="96.00" y="139.15" class="desc-text">Inner / around HTML or XML markup tag</text>
+<rect x="7.00" y="148.71" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="14.75" y="156.81" text-anchor="middle" class="key-label" fill="#f8fafc">ip</text>
+<text x="26.80" y="157.11" text-anchor="middle" class="key-sep">/</text>
+<rect x="30.50" y="148.71" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="38.25" y="156.81" text-anchor="middle" class="key-label" fill="#f8fafc">ap</text>
+<text x="96.00" y="157.31" class="desc-text">Inner / around paragraph block</text>
+<rect x="7.00" y="166.87" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="14.75" y="174.97" text-anchor="middle" class="key-label" fill="#f8fafc">if</text>
+<text x="26.80" y="175.27" text-anchor="middle" class="key-sep">/</text>
+<rect x="30.50" y="166.87" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="38.25" y="174.97" text-anchor="middle" class="key-label" fill="#f8fafc">af</text>
+<text x="96.00" y="175.47" class="desc-text">Treesitter: Inner / around function</text>
+<rect x="7.00" y="185.02" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="14.75" y="193.12" text-anchor="middle" class="key-label" fill="#f8fafc">ic</text>
+<text x="26.80" y="193.42" text-anchor="middle" class="key-sep">/</text>
+<rect x="30.50" y="185.02" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="38.25" y="193.12" text-anchor="middle" class="key-label" fill="#f8fafc">ac</text>
+<text x="96.00" y="193.62" class="desc-text">Treesitter: Inner / around class</text>
+<rect x="7.00" y="203.18" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="14.75" y="211.28" text-anchor="middle" class="key-label" fill="#f8fafc">ih</text>
+<text x="96.00" y="211.78" class="desc-text">GitSigns: Inner Git hunk under cursor</text>
+</g>
+<g transform="translate(312.00, 64.00)">
+<rect width="282.00" height="229.33" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#2dd4bf"/>
+<text x="9.5" y="12.0" class="card-title" fill="#2dd4bf">IN-LINE FIND, REGISTERS &amp; MARKS</text>
+<rect x="7.00" y="22.38" width="25.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="19.55" y="30.48" text-anchor="middle" class="key-label" fill="#f8fafc">f{c}</text>
+<text x="36.40" y="30.78" text-anchor="middle" class="key-sep">/</text>
+<rect x="40.10" y="22.38" width="25.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.65" y="30.48" text-anchor="middle" class="key-label" fill="#f8fafc">F{c}</text>
+<text x="96.00" y="30.98" class="desc-text">Find character inline forward / backward</text>
+<rect x="7.00" y="41.64" width="25.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="19.55" y="49.74" text-anchor="middle" class="key-label" fill="#f8fafc">t{c}</text>
+<text x="36.40" y="50.04" text-anchor="middle" class="key-sep">/</text>
+<rect x="40.10" y="41.64" width="25.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="52.65" y="49.74" text-anchor="middle" class="key-label" fill="#f8fafc">T{c}</text>
+<text x="96.00" y="50.24" class="desc-text">Till character inline (stop 1 char before)</text>
+<rect x="7.00" y="60.90" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="69.00" text-anchor="middle" class="key-label" fill="#f8fafc">;</text>
+<text x="23.30" y="69.30" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="60.90" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="69.00" text-anchor="middle" class="key-label" fill="#f8fafc">,</text>
+<text x="96.00" y="69.50" class="desc-text">Repeat last inline character find same / opp</text>
+<rect x="7.00" y="80.15" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="88.25" text-anchor="middle" class="key-label" fill="#f8fafc">*</text>
+<text x="23.30" y="88.55" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="80.15" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="88.25" text-anchor="middle" class="key-label" fill="#f8fafc">#</text>
+<text x="96.00" y="88.75" class="desc-text">Search next / prev match of word under cursor</text>
+<rect x="7.00" y="99.41" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="18.75" y="107.51" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="34.80" y="107.81" text-anchor="middle" class="key-sep">+</text>
+<rect x="38.50" y="99.41" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="44.50" y="107.51" text-anchor="middle" class="key-label" fill="#f8fafc">S</text>
+<text x="96.00" y="108.01" class="desc-text">Quick save current file (:w)</text>
+<rect x="7.00" y="118.67" width="21.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="17.55" y="126.77" text-anchor="middle" class="key-label" fill="#f8fafc">&quot;+y</text>
+<text x="32.40" y="127.07" text-anchor="middle" class="key-sep">/</text>
+<rect x="36.10" y="118.67" width="21.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="46.65" y="126.77" text-anchor="middle" class="key-label" fill="#f8fafc">&quot;+p</text>
+<text x="96.00" y="127.27" class="desc-text">Yank / paste with desktop system clipboard</text>
+<rect x="7.00" y="137.93" width="21.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="17.55" y="146.03" text-anchor="middle" class="key-label" fill="#f8fafc">&quot;0p</text>
+<text x="96.00" y="146.53" class="desc-text">Paste last yanked text (ignores deletes)</text>
+<rect x="7.00" y="157.18" width="21.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="17.55" y="165.28" text-anchor="middle" class="key-label" fill="#f8fafc">&quot;_d</text>
+<text x="96.00" y="165.78" class="desc-text">Delete to black-hole reg (no overwrite)</text>
+<rect x="7.00" y="176.44" width="33.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="23.75" y="184.54" text-anchor="middle" class="key-label" fill="#f8fafc">q{reg}</text>
+<text x="44.80" y="184.84" text-anchor="middle" class="key-sep">/</text>
+<rect x="48.50" y="176.44" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="54.50" y="184.54" text-anchor="middle" class="key-label" fill="#f8fafc">q</text>
+<text x="96.00" y="185.04" class="desc-text">Record macro into register a-z / Stop</text>
+<rect x="7.00" y="195.70" width="33.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="23.75" y="203.80" text-anchor="middle" class="key-label" fill="#f8fafc">@{reg}</text>
+<text x="44.80" y="204.10" text-anchor="middle" class="key-sep">/</text>
+<rect x="48.50" y="195.70" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="56.25" y="203.80" text-anchor="middle" class="key-label" fill="#f8fafc">@@</text>
+<text x="96.00" y="204.30" class="desc-text">Play recorded macro / Repeat last macro</text>
+<rect x="7.00" y="214.96" width="33.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="23.75" y="223.06" text-anchor="middle" class="key-label" fill="#f8fafc">m{a-z}</text>
+<text x="44.80" y="223.36" text-anchor="middle" class="key-sep">/</text>
+<rect x="48.50" y="214.96" width="33.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="65.25" y="223.06" text-anchor="middle" class="key-label" fill="#f8fafc">'{a-z}</text>
+<text x="96.00" y="223.56" class="desc-text">Set local mark a-z / Jump to mark line</text>
+</g>
+<g transform="translate(312.00, 301.83)">
+<rect width="282.00" height="229.33" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#fb7185"/>
+<text x="9.5" y="12.0" class="card-title" fill="#fb7185">VISUAL &amp; MULTI-LINE EDITING</text>
+<rect x="7.00" y="22.38" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="30.48" text-anchor="middle" class="key-label" fill="#f8fafc">v</text>
+<text x="23.30" y="30.78" text-anchor="middle" class="key-sep">/</text>
+<rect x="27.00" y="22.38" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="33.00" y="30.48" text-anchor="middle" class="key-label" fill="#f8fafc">V</text>
+<text x="96.00" y="30.98" class="desc-text">Enter character visual mode / Line visual</text>
+<rect x="7.00" y="41.64" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="18.75" y="49.74" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="34.80" y="50.04" text-anchor="middle" class="key-sep">+</text>
+<rect x="38.50" y="41.64" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="44.50" y="49.74" text-anchor="middle" class="key-label" fill="#f8fafc">V</text>
+<text x="96.00" y="50.24" class="desc-text">Enter block visual mode (column editing)</text>
+<rect x="7.00" y="60.90" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.00" y="69.00" text-anchor="middle" class="key-label" fill="#f8fafc">o</text>
+<text x="96.00" y="69.50" class="desc-text">Switch cursor between visual selection ends</text>
+<rect x="7.00" y="80.15" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="14.75" y="88.25" text-anchor="middle" class="key-label" fill="#f8fafc">gv</text>
+<text x="96.00" y="88.75" class="desc-text">Reselect previous visual highlight area</text>
+<rect x="7.00" y="99.41" width="51.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="32.55" y="107.51" text-anchor="middle" class="key-label" fill="#f8fafc">I{txt} ESC</text>
+<text x="96.00" y="108.01" class="desc-text">Block mode: insert text before lines</text>
+<rect x="7.00" y="118.67" width="51.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="32.55" y="126.77" text-anchor="middle" class="key-label" fill="#f8fafc">A{txt} ESC</text>
+<text x="96.00" y="127.27" class="desc-text">Block mode: append text after lines</text>
+<rect x="7.00" y="137.93" width="51.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="32.55" y="146.03" text-anchor="middle" class="key-label" fill="#f8fafc">c{txt} ESC</text>
+<text x="96.00" y="146.53" class="desc-text">Block mode: change &amp; replace column block</text>
+<rect x="7.00" y="157.18" width="13.60" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="13.80" y="165.28" text-anchor="middle" class="key-label" fill="#f8fafc">&lt;</text>
+<text x="24.90" y="165.58" text-anchor="middle" class="key-sep">/</text>
+<rect x="28.60" y="157.18" width="13.60" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="35.40" y="165.28" text-anchor="middle" class="key-label" fill="#f8fafc">&gt;</text>
+<text x="96.00" y="165.78" class="desc-text">Shift lines left / right (retains selection)</text>
+<rect x="7.00" y="176.44" width="23.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="18.75" y="184.54" text-anchor="middle" class="key-label" fill="#f8fafc">CTRL</text>
+<text x="34.80" y="184.84" text-anchor="middle" class="key-sep">+</text>
+<rect x="38.50" y="176.44" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#083344" stroke="#06b6d4" stroke-width="0.75"/>
+<text x="52.25" y="184.54" text-anchor="middle" class="key-label" fill="#38bdf8">SPACE</text>
+<text x="96.00" y="185.04" class="desc-text">Treesitter: expand selection scope</text>
+<rect x="7.00" y="195.70" width="45.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="29.55" y="203.80" text-anchor="middle" class="key-label" fill="#f8fafc">BACKSPACE</text>
+<text x="96.00" y="204.30" class="desc-text">Treesitter: shrink selection scope</text>
+<rect x="7.00" y="214.96" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="20.75" y="223.06" text-anchor="middle" class="key-label" fill="#f8fafc">:sort</text>
+<text x="38.80" y="223.36" text-anchor="middle" class="key-sep">/</text>
+<rect x="42.50" y="214.96" width="36.30" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="60.65" y="223.06" text-anchor="middle" class="key-label" fill="#f8fafc">:sort u</text>
+<text x="96.00" y="223.56" class="desc-text">Sort highlighted lines alphabetically / Unique</text>
+</g>
+<g transform="translate(312.00, 539.67)">
+<rect width="282.00" height="229.33" rx="5.0" ry="5.0" fill="#0d1322" stroke="#1c263c" stroke-width="0.85"/>
+<path d="M 0,5.0 A 5.0,5.0 0 0,1 5.0,0 L 277.00,0 A 5.0,5.0 0 0,1 282.00,5.0 L 282.00,17.5 L 0,17.5 Z" fill="#151e33"/>
+<line x1="0" y1="17.5" x2="282.00" y2="17.5" stroke="#1c263c" stroke-width="0.6"/>
+<rect x="0" y="2.5" width="3.2" height="12.50" rx="1.6" fill="#c084fc"/>
+<text x="9.5" y="12.0" class="card-title" fill="#c084fc">BUFFERS &amp; TAB MANAGEMENT</text>
+<rect x="7.00" y="22.38" width="27.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="20.75" y="30.48" text-anchor="middle" class="key-label" fill="#f8fafc">SHIFT</text>
+<text x="38.80" y="30.78" text-anchor="middle" class="key-sep">+</text>
+<rect x="42.50" y="22.38" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="48.50" y="30.48" text-anchor="middle" class="key-label" fill="#f8fafc">h</text>
+<text x="58.80" y="30.78" text-anchor="middle" class="key-sep">/</text>
+<rect x="62.50" y="22.38" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="68.50" y="30.48" text-anchor="middle" class="key-label" fill="#f8fafc">l</text>
+<text x="96.00" y="30.98" class="desc-text">Prev / next open buffer (&lt;S-h&gt; / &lt;S-l&gt;)</text>
+<rect x="7.00" y="41.64" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="15.55" y="49.74" text-anchor="middle" class="key-label" fill="#f8fafc">[b</text>
+<text x="28.40" y="50.04" text-anchor="middle" class="key-sep">/</text>
+<rect x="32.10" y="41.64" width="17.10" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="40.65" y="49.74" text-anchor="middle" class="key-label" fill="#f8fafc">]b</text>
+<text x="96.00" y="50.24" class="desc-text">Navigate to previous / next buffer in tabline</text>
+<rect x="7.00" y="60.90" width="42.30" height="12.2" rx="2.2" ry="2.2" fill="#083344" stroke="#06b6d4" stroke-width="0.75"/>
+<text x="28.15" y="69.00" text-anchor="middle" class="key-label" fill="#38bdf8">&lt;leader&gt;</text>
+<text x="53.60" y="69.30" text-anchor="middle" class="key-sep">+</text>
+<rect x="57.30" y="60.90" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="65.05" y="69.00" text-anchor="middle" class="key-label" fill="#f8fafc">bb</text>
+<text x="77.10" y="69.30" text-anchor="middle" class="key-sep">/</text>
+<rect x="80.80" y="60.90" width="13.60" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="87.60" y="69.00" text-anchor="middle" class="key-label" fill="#f8fafc">`</text>
+<text x="100.00" y="69.50" class="desc-text">Switch to other (last visited) buffer</text>
+<rect x="7.00" y="80.15" width="42.30" height="12.2" rx="2.2" ry="2.2" fill="#083344" stroke="#06b6d4" stroke-width="0.75"/>
+<text x="28.15" y="88.25" text-anchor="middle" class="key-label" fill="#38bdf8">&lt;leader&gt;</text>
+<text x="53.60" y="88.55" text-anchor="middle" class="key-sep">+</text>
+<rect x="57.30" y="80.15" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="65.05" y="88.25" text-anchor="middle" class="key-label" fill="#f8fafc">bd</text>
+<text x="96.00" y="88.75" class="desc-text">Delete current buffer (Snacks bufdelete)</text>
+<rect x="7.00" y="99.41" width="42.30" height="12.2" rx="2.2" ry="2.2" fill="#083344" stroke="#06b6d4" stroke-width="0.75"/>
+<text x="28.15" y="107.51" text-anchor="middle" class="key-label" fill="#38bdf8">&lt;leader&gt;</text>
+<text x="53.60" y="107.81" text-anchor="middle" class="key-sep">+</text>
+<rect x="57.30" y="99.41" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="65.05" y="107.51" text-anchor="middle" class="key-label" fill="#f8fafc">bo</text>
+<text x="96.00" y="108.01" class="desc-text">Delete all other buffers except active</text>
+<rect x="7.00" y="118.67" width="42.30" height="12.2" rx="2.2" ry="2.2" fill="#083344" stroke="#06b6d4" stroke-width="0.75"/>
+<text x="28.15" y="126.77" text-anchor="middle" class="key-label" fill="#38bdf8">&lt;leader&gt;</text>
+<text x="53.60" y="127.07" text-anchor="middle" class="key-sep">+</text>
+<rect x="57.30" y="118.67" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="65.05" y="126.77" text-anchor="middle" class="key-label" fill="#f8fafc">bp</text>
+<text x="96.00" y="127.27" class="desc-text">Toggle pinned status of current buffer</text>
+<rect x="7.00" y="137.93" width="42.30" height="12.2" rx="2.2" ry="2.2" fill="#083344" stroke="#06b6d4" stroke-width="0.75"/>
+<text x="28.15" y="146.03" text-anchor="middle" class="key-label" fill="#38bdf8">&lt;leader&gt;</text>
+<text x="53.60" y="146.33" text-anchor="middle" class="key-sep">+</text>
+<rect x="57.30" y="137.93" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="65.05" y="146.03" text-anchor="middle" class="key-label" fill="#f8fafc">bP</text>
+<text x="96.00" y="146.53" class="desc-text">Delete all non-pinned open buffers</text>
+<rect x="7.00" y="157.18" width="42.30" height="12.2" rx="2.2" ry="2.2" fill="#083344" stroke="#06b6d4" stroke-width="0.75"/>
+<text x="28.15" y="165.28" text-anchor="middle" class="key-label" fill="#38bdf8">&lt;leader&gt;</text>
+<text x="53.60" y="165.58" text-anchor="middle" class="key-sep">+</text>
+<rect x="57.30" y="157.18" width="15.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="65.05" y="165.28" text-anchor="middle" class="key-label" fill="#f8fafc">bj</text>
+<text x="96.00" y="165.78" class="desc-text">Pick buffer interactively by badge letter</text>
+<rect x="7.00" y="176.44" width="64.30" height="12.2" rx="2.2" ry="2.2" fill="#083344" stroke="#06b6d4" stroke-width="0.75"/>
+<text x="39.15" y="184.54" text-anchor="middle" class="key-label" fill="#38bdf8">&lt;leader&gt;&lt;tab&gt;</text>
+<text x="75.60" y="184.84" text-anchor="middle" class="key-sep">+</text>
+<rect x="79.30" y="176.44" width="19.50" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="89.05" y="184.54" text-anchor="middle" class="key-label" fill="#f8fafc">new</text>
+<text x="103.10" y="184.84" text-anchor="middle" class="key-sep">/</text>
+<rect x="106.80" y="176.44" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="112.80" y="184.54" text-anchor="middle" class="key-label" fill="#f8fafc">d</text>
+<text x="124.40" y="185.04" class="desc-text">Open new tab (:tabnew) / Close tab</text>
+<rect x="7.00" y="195.70" width="64.30" height="12.2" rx="2.2" ry="2.2" fill="#083344" stroke="#06b6d4" stroke-width="0.75"/>
+<text x="39.15" y="203.80" text-anchor="middle" class="key-label" fill="#38bdf8">&lt;leader&gt;&lt;tab&gt;</text>
+<text x="75.60" y="204.10" text-anchor="middle" class="key-sep">+</text>
+<rect x="79.30" y="195.70" width="13.60" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="86.10" y="203.80" text-anchor="middle" class="key-label" fill="#f8fafc">]</text>
+<text x="97.20" y="204.10" text-anchor="middle" class="key-sep">/</text>
+<rect x="100.90" y="195.70" width="13.60" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="107.70" y="203.80" text-anchor="middle" class="key-label" fill="#f8fafc">[</text>
+<text x="120.10" y="204.30" class="desc-text">Navigate to next / previous tab page</text>
+<rect x="7.00" y="214.96" width="64.30" height="12.2" rx="2.2" ry="2.2" fill="#083344" stroke="#06b6d4" stroke-width="0.75"/>
+<text x="39.15" y="223.06" text-anchor="middle" class="key-label" fill="#38bdf8">&lt;leader&gt;&lt;tab&gt;</text>
+<text x="75.60" y="223.36" text-anchor="middle" class="key-sep">+</text>
+<rect x="79.30" y="214.96" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="85.30" y="223.06" text-anchor="middle" class="key-label" fill="#f8fafc">o</text>
+<text x="95.60" y="223.36" text-anchor="middle" class="key-sep">/</text>
+<rect x="99.30" y="214.96" width="12.00" height="12.2" rx="2.2" ry="2.2" fill="#19243b" stroke="#2f3e5c" stroke-width="0.6"/>
+<text x="105.30" y="223.06" text-anchor="middle" class="key-label" fill="#f8fafc">l</text>
+<text x="116.90" y="223.56" class="desc-text">Close other tabs / Jump to last tab</text>
+</g>
+<line x1="18.0" y1="769.0" x2="594.0" y2="769.0" stroke="#1c263c" stroke-width="0.8"/>
+<text x="18.0" y="780.0" class="footer-text">LAZYVIM • NEOVIM 0.10+ • PRESS <tspan fill="#38bdf8" font-weight="700">&lt;leader&gt;sk</tspan> OR <tspan fill="#38bdf8" font-weight="700">&lt;leader&gt;?</tspan> FOR LIVE KEYMAPS</text>
+<text x="594.0" y="780.0" text-anchor="end" class="footer-text">PAGE 1 OF 2 • LETTER PORTRAIT</text>
+</svg>
