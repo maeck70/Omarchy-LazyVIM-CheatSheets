@@ -515,7 +515,7 @@ def render_page_svg(page_num, total_pages, sections, theme="dark"):
 
 
 def main():
-    output_dir = "/home/marcel/Work/OmarchyCheatSheet"
+    output_dir = os.path.dirname(os.path.abspath(__file__))
     os.makedirs(output_dir, exist_ok=True)
 
     # 1. Dark Theme SVGs

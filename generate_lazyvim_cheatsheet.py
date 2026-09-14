@@ -520,7 +520,7 @@ def render_page_svg(page_num, total_pages, sections, theme="dark"):
 
 
 def main():
-    output_dir = "/home/marcel/Work/OmarchyCheatSheet"
+    output_dir = os.path.dirname(os.path.abspath(__file__))
     os.makedirs(output_dir, exist_ok=True)
     previews_dir = os.path.join(output_dir, "previews")
     os.makedirs(previews_dir, exist_ok=True)
